@@ -245,8 +245,10 @@ def main():
             d.rectangle([lx + 48, ty0 + 10, lx + 80, ty1 - 18], fill=GOLD)
             d.rectangle([lx + 84, ty0 + 10, lx + 116, ty1 - 18], fill=(0x2E, 0x7A, 0x4A))
             d.rectangle([lx + 28, ty0 + 30, lx + 60, ty1 - 18], fill=(0x2E, 0x5A, 0x8A))
-            d.polygon([(lx + 8, ty1 - 18), (lx + 304, ty1 - 18),
-                       (lx + 290, ty1 - 2), (lx + 22, ty1 - 2)], fill=(0x3A, 0x3A, 0x44))
+            # hull: slanted bow, flat stern, white wake line below
+            d.polygon([(lx + 8, ty1 - 18), (lx + 296, ty1 - 18),
+                       (lx + 308, ty1 - 6), (lx + 22, ty1 - 6)], fill=(0x3A, 0x3A, 0x44))
+            d.line([(lx + 8, ty1 - 2), (lx + 304, ty1 - 2)], fill=WHITE, width=1)
             d.text((lx + 150, ty0 + 6), "%", font=font(SANS_BOLD, 34), fill=WHITE)
             d.text((lx + 196, ty0 + 30), "TARIFFS", font=font(SANS_BOLD, 13),
                    fill=(0xBB, 0xBB, 0xBB))

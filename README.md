@@ -1,8 +1,8 @@
 # news-image-20261125 — Sum up 25 November's world news in one image
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-news--image--20261125-blue)](https://make.fun/bounty/news-image-20261125)
-[![entry](https://img.shields.io/badge/entry-entry.png-green)](entry.png)
-[![license](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
+[![make.fun bounty](https://make.fun/badge/news-image-20261125.svg)](https://make.fun/bounty/news-image-20261125)
+[![rank](https://make.fun/badge/news-image-20261125/backburner036-prog/news-image-20261125/rank.svg)](https://make.fun/bounty/news-image-20261125)
+[![reward](https://make.fun/badge/news-image-20261125/backburner036-prog/news-image-20261125/reward.svg)](https://make.fun/bounty/news-image-20261125)
 
 One 1024×1024 image summing up Wednesday, 25 November 2026: **35 stories, 7 regions,
 UTC timeline** — hero: Asia tumbles as the AI rally reverses (Kospi −5.3%, Nikkei −2.9%,
